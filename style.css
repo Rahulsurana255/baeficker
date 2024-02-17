@@ -1,95 +1,72 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    line-height: 1.6;
 }
 
 header {
     background-color: #333;
-    padding: 20px;
+    color: white;
+    padding: 1rem;
 }
 
 header h1 {
-    color: #fff;
-    margin: 0;
+    display: inline;
 }
 
 nav ul {
+    display: inline;
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-}
-
-main {
-    padding: 20px;
 }
 
 .hero {
+    background-color: #f4f4f4;
+    padding: 2rem;
     text-align: center;
-}
-
-.hero h2 {
-    color: #333;
-    margin-bottom: 20px;
 }
 
 .hero img {
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     height: auto;
 }
 
-.hero p {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.cta {
+.hero .cta {
     display: inline-block;
     background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    color: white;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    border-radius: 5px;
+    margin-top: 1rem;
 }
 
 .brands {
-    display: flex;
-    justify-content: space-around;
-}
-
-.brand {
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
 }
 
 .brand img {
-    width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
 }
 
 .brand h3 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.brand p {
-    color: #333;
+    margin-top: 1rem;
 }
 
 footer {
     background-color: #333;
-    padding: 20px;
+    color: white;
+    padding: 1rem;
     text-align: center;
-    color: #fff;
-}
